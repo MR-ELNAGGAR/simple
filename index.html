@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- normallize css file -->
+    <link rel="stylesheet" href="css/normallize.css" />
+    <!-- page stylel -->
+    <link rel="stylesheet" href="css/style.css?=v2" />
+    <!-- slider css file -->
+    <link rel="stylesheet" href="css/slider.css?=v2" />
+    <!-- font awsome (icons) -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- page title -->
+    <title>Simple brand</title>
+    <!-- page icon -->
+  </head>
+  <body>
+    <div class="container containerForTab">
+      <div class="productTab hide"></div>
+    </div>
+
+    <header>
+      <div class="logo">
+        <h1><a href="index.html">Simple</a></h1>
+      </div>
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#products">Products</a>
+        <a href="#home">Home</a>
+      </nav>
+    </header>
+    <div class="container">
+      <section class="fristSec" id="home">
+        <div class="text">
+          <h1>Simple <span>brand</span></h1>
+          <p>
+            I think we are the best local brand <br />around Egypt and We care
+            about quality not quantity.
+          </p>
+          <a href="#products">Products</a>
+        </div>
+        <div class="imgs">
+          <img src="imgs/IMG-20250724-WA0040.png" />
+        </div>
+      </section>
+    </div>
+    <div class="title" id="products">
+      <h1>Products</h1>
+    </div>
+    <div class="container">
+      <section class="productsSec">
+        <div class="products"></div>
+      </section>
+    </div>
+    <div class="title title_contact" id="products">
+      <h1 id="contact">Contact</h1>
+    </div>
+    <div class="container">
+      <section class="contact">
+        <div class="socialMedia">
+          <!-- ----------------------------------- -->
+          <div class="WhatsApp link">
+            <a href="https://wa.me/201554058113" target="_blank">
+              <img src="imgs/whatsapp_icon.png" alt="" />
+            </a>
+          </div>
+          <!-- ----------------------------------- -->
+
+          <div class="faceBook link">
+            <a href="https://www.facebook.com/share/16rfEjHRNQ/" target="_blank">
+              <img src="imgs/facebook_icon.png" alt="" />
+            </a>
+          </div>
+          <!-- ----------------------------------- -->
+
+          <div class="instegrame link">
+            <a
+              href="https://www.instagram.com/simplebrand00?igsh=OGt0ZTVrNHcxb2o3"
+              target="_blank"
+            >
+              <img src="imgs/instagram_icon.png" alt="" />
+            </a>
+          </div>
+          <!-- ----------------------------------- -->
+
+          <div class="sarehne link">
+            <a
+              href="https://www.tiktok.com/@simblebrand?_t=ZS-8y3d0aAM1o0&_r=1"
+              target="_blank"
+            >
+              <img src="imgs/tiktok_icon.png" alt="" />
+            </a>
+          </div>
+          <!-- ----------------------------------- -->
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>
+        &lt;Developed By&gt;
+        <a href="https://www.facebook.com/share/16BpaXRVe5/" target="_blank"
+          >Omar
+        </a>
+      </p>
+
+      <p>&lt;All Copy Rights® Reserved @2025 &gt;</p>
+    </footer>
+    <!-- js filles -->
+    <script src="js/main.js?=v2"></script>
+    <script>
+      const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (
+        ua.includes("FBAN") ||
+        ua.includes("FBAV") ||
+        ua.includes("Instagram")
+      ) {
+        window.location =
+          "intent://simplebrand.rf.gd#Intent;scheme=https;package=com.android.chrome;end";
+      }
+    </script>
+
+  </body>
+</html>

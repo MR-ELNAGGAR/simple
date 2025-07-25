@@ -1003,6 +1003,8 @@ footer p a:hover {
     top: 193px;
     z-index: 999;
     border-radius: 10px 0px 0px 10px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .product {
     width: 300px;
